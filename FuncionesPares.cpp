@@ -14,7 +14,7 @@ void rec_2a() {
     cout<<"Ingrese los numeros: "<<endl;
     for(t i=0;i<a;i++)
     cin>>p[i];
-}
+    delete [] p;}
 void busc_2a(t *p,t n) {
     t *k= new t[2];
     k[0]=p[0];
@@ -27,6 +27,7 @@ void busc_2a(t *p,t n) {
     }
     for(t i=0;i<2;i++)
         cout<<k[i]<<" ";
+    delete [] k;
 
 }
 
