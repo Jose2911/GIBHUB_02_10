@@ -9,6 +9,7 @@ typedef float fl;
 void rec_2a();
 void busc_2a(t *p,t a);
 void rec_3a();
+void varianza();
 
 
 
