@@ -30,7 +30,7 @@ void mostrar_lista(entero* lista, range elementos){
         cout<<lista[i]<<" ";
     cout<<endl;
 }
-//EJERCICIO 03
+//EJERCICIO 03p
 
 float promedio(entero* lista, entero numero){
     float suma=0;
